@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 body {
     background-color: #9b84bc;
 }
@@ -6,9 +9,8 @@ nav {
     width: 100%;
     height: 100px;
     position: fixed;
-    z-index: 1;
 }
-#spotify {
-    left: 70%;
+main {
+    padding-top: 100px;
     position: absolute;
 }
