@@ -12,5 +12,15 @@ nav {
 }
 main {
     padding-top: 100px;
-    position: absolute;
+}
+#whatsapp {
+width: 50px;
+height: 50px;
+position: fixed;
+right: 25px;
+bottom: 25px;
+transition: 200ms;
+}
+#whatsapp:hover {
+    transform: scale(1.15);
 }
