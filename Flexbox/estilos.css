@@ -8,9 +8,31 @@
 
 }
 nav {
+  width: 100%;
+  height: 300px;
   position: fixed;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 .modulo1 {
     background-color: #088138;
-    
+    width: 100%;
+}
+.modulo1 ul{
+    justify-content: flex-end;
+}
+nav ul{
+  display:flex;
+  gap: 25px;
+}
+.modulo2 {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  gap: 20px;
+}
+.buscar {
+display: flex;
+margin-left: 20px;
 }
