@@ -1,0 +1,16 @@
+* {
+  margin: 0;  
+  text-decoration-color:#7f8c8d;
+}
+#fondo {
+    background-color: #ffffff;
+    position: absolute;
+
+}
+nav {
+  position: fixed;
+}
+.modulo1 {
+    background-color: #088138;
+    
+}
